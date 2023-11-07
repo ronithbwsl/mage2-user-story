@@ -9,4 +9,7 @@
     <type name="Magento\Theme\Block\Html\Breadcrumbs">
         <plugin name="Ronit_RonitModule_Plugin_BreadcrumbsPlugin" type="Ronit\RonitModule\Plugin\BreadcrumbsPlugin" />
     </type>
+    <type name="Magento\Theme\Block\Html\Header">
+        <plugin name="Ronit_RonitModule_Plugin_WelcomeMsgPlugin" type="Ronit\RonitModule\Plugin\WelcomeMsgPlugin" />
+    </type>
 </config>
