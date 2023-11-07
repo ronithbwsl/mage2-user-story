@@ -3,4 +3,10 @@
     <type name="Magento\Catalog\Model\Product">
         <plugin name="Ronit_RonitModule_Plugin_AddOnSaleToProductsPlugin" type="Ronit\RonitModule\Plugin\AddOnSaleToProductsPlugin" />
     </type>
+    <type name="Magento\Theme\Block\Html\Footer">
+        <plugin name="Ronit_RonitModule_Plugin_CopyrightPlugin" type="Ronit\RonitModule\Plugin\CopyrightPlugin" />
+    </type>
+    <type name="Magento\Theme\Block\Html\Breadcrumbs">
+        <plugin name="Ronit_RonitModule_Plugin_BreadcrumbsPlugin" type="Ronit\RonitModule\Plugin\BreadcrumbsPlugin" />
+    </type>
 </config>
