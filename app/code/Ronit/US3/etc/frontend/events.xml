@@ -3,4 +3,7 @@
     <event name="catalog_controller_product_view">
         <observer name="MyObserver" instance="Ronit\US3\Observer\MyObserver" />
     </event>
+    <event name="controller_front_send_response_before">
+        <observer name="MyObserver2" instance="Ronit\US3\Observer\MyObserver2"/>
+    </event>
 </config> 
