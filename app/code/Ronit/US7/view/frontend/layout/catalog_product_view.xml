@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <referenceContainer name="product.info.main">
+        <block before="product.info.price" class="Magento\Framework\View\Element\Template" name="render_phtml" template="Ronit_US7::ronit.phtml" />
+        <block before="product.info.price" class="Ronit\US7\Block\Message" name="render_block" template="Ronit_US7::ronit.phtml"/>
+    </referenceContainer>
+</page>
